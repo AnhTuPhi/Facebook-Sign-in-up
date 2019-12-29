@@ -1,0 +1,179 @@
+﻿/* COMMON CSS STYLE */
+.clearfix {
+    *zoom: 1;
+}
+.clearfix:after {
+    clear: both;
+    content: '';
+    display: table;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+/* END COMMON CSS STYLE */
+
+#header-wrapped {
+    background: #3b5998;
+    width: 100%;
+    height:90px;
+}
+#header-wrapped .container .inner img{
+    height:35px;
+    width:160px;
+    display: block;
+    margin:30px 0px;
+}
+#header-wrapped .container .inner .blank-email {
+    display:inline-block;
+    margin:10px 0px;
+}
+#header-wrapped .container .inner .blank-email p{
+    color:#fff;
+    font-size:14px;
+}
+#header-wrapped .container .inner .blank-password {
+    display:inline-block;
+    margin:10px 0px;
+}
+#header-wrapped .container .inner .blank-password p{
+    color:#fff;
+    font-size:14px;
+}
+#header-wrapped .container .inner .blank-password span{
+    color:#9cb4d8;
+    font-size:13px;
+}
+#header-wrapped .container .inner .button {
+    display:block;
+    width:100px;
+    height:30px;
+    margin:40px 0px;
+}
+#header-wrapped .container .inner .button button{
+    border:1px;
+    font-weight:500;
+    cursor: pointer;
+    background: #4267b2;
+    color:#fff;
+}
+#main-body-wrapped {
+    background: linear-gradient(white, #D3D8E8);
+}
+#main-body-wrapped .container .inner .motto{
+    width:80%;
+}
+#main-body-wrapped .container .inner .motto p{
+    color: #0e385f;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 40px;
+    word-spacing: -1px;
+}
+#main-body-wrapped .container .inner h1{
+    font-weight: bold;
+}
+#main-body-wrapped .container .inner .blank-name{
+    margin:20px 0px;
+}
+#main-body-wrapped .container .inner .blank-name .sp1{
+    width:225px;
+    height:40px;
+    border-radius: 5px;
+    border-color:#bdc7d8;
+    border:1px solid #ccd0d5;
+    display: inline-block;
+}
+#main-body-wrapped .container .inner .blank-sdt{
+    margin:20px 0px;
+}
+#main-body-wrapped .container .inner .blank-sdt input{
+    width:450px;
+    height:40px;
+    border-radius: 5px;
+    border-color:#bdc7d8;
+    border:1px solid #ccd0d5;
+    display:block;
+}
+
+#main-body-wrapped .container .inner .blank-newpass{
+    margin:20px 0px;
+}
+#main-body-wrapped .container .inner .blank-newpass input{
+    width:450px;
+    height:40px;
+    border-radius: 5px;
+    border-color:#bdc7d8;
+    border:1px solid #ccd0d5;
+    display:block;
+}
+#main-body-wrapped .container .inner .Date-of-birth form{
+    display:inline-block;
+    margin:0px 1px;
+}
+#main-body-wrapped .container .inner .Date-of-birth form select{
+    padding:5px;
+    font-size: 13px;
+    height:30px;
+}
+#main-body-wrapped .container .inner .gender {
+    margin:10px 0px;
+}
+#main-body-wrapped .container .inner .gender input{
+    height:17px;
+    width:17px;
+    margin:0px 10px;
+}
+#main-body-wrapped .container .inner .attention{
+    width:70%;
+}
+#main-body-wrapped .container .inner .attention p{
+    font-size:11px;
+    display:block;
+}
+#main-body-wrapped .container .inner .btn-sign-up{
+    margin:10px;
+}
+#main-body-wrapped .container .inner .btn-sign-up button{
+    padding:7px 20px;
+    /*background: #69A74E;*/
+    width:250px;
+    height:40px;
+    font-size:18px;
+    font-weight:bold;
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: 1px;
+    position: relative;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+/*CSS footer*/
+#footer-wrapped{
+    margin:20px 0px;
+}
+#footer-wrapped .container .inner a{
+    margin:0px 6px;
+    font-size:12px;
+    cursor:pointer;
+    display:inline-block;
+}
+#footer-wrapped .container .inner .dot{
+    height:1px;
+    background:grey;
+    width:1120px;
+    margin:10px 0px;
+    display:block;
+}
+#footer-wrapped .container .inner .copy-right{
+    margin:5px 20px;
+}
+#footer-wrapped .container .inner .copy-right p{
+    font-size:10px;
+}
